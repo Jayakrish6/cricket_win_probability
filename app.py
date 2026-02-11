@@ -216,7 +216,7 @@ cities = [
     'Gqeberha'
 ]
 
-st.title('🏏 ODI World Cup 2023 Win Probability')
+st.title('🏏 ODI Win Probability')
 st.caption('Live chase assistant: blend match context, chase pressure, and win odds in one glance.')
 st.markdown('### Match Setup')
 col1, col2 = st.columns(2)
@@ -309,4 +309,5 @@ if st.button('Predict Probability'):
             </div>
             """,
             unsafe_allow_html=True
+
         )
